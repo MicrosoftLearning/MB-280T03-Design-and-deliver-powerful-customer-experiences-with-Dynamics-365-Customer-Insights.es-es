@@ -99,8 +99,8 @@ En esta tarea, ingeriremos los datos de las compras en línea, que representan l
 1. En Customer Insights, amplía la opción **Datos** situada en el menú de navegación izquierdo y selecciona **Orígenes de datos.**
 2. Selecciona **+ Agregar un origen de datos**, elige **Microsoft Power Query** y denomina el origen *PoS* y, después, selecciona **Siguiente.**
 3. Selecciona el conector **Texto o CSV**.
-4. Escribe https://aka.ms/CI-ILT/POSPurchases en Ruta de acceso o dirección URL del archivo. Selecciona **Siguiente** y, después, selecciona **Transformar datos.**
-5. Como antes, selecciona **Transformar** y **Usar la primera fila como encabezados.**
+4. Escribe https://aka.ms/CI-ILT/POSPurchases en la Ruta de acceso o dirección URL del archivo. Selecciona **Siguiente** y, después, selecciona **Transformar datos.**
+5. Como antes, selecciona **Transformar** y, después, **Usar la primera fila como encabezados.**
 6. Actualiza el tipo de datos para estas columnas:
    - **PurchasedOn**: fecha
    - **TotalPrice**: moneda
