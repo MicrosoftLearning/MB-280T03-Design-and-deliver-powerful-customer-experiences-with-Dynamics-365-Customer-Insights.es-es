@@ -21,7 +21,7 @@ Después de haber introducido los datos sin procesar de los orígenes de datos e
    - Customers (Loyalty)
 6. Selecciona **Aplicar**.
 7. Ahora se mostrarán las asignaciones de la tabla de origen en comparación con los tipos de modelos estándar. Puedes revisar los tipos en la tabla.
-8. Elige una "clave principal" para cada entidad que hayas introducido. La clave principal debe ser una referencia única. En eCommerce Contacts, selecciona **ContactId** como la clave principal.
+8. Debes elegir una «Clave principal» para cada entidad que hayas introducido. La clave principal debe ser una referencia única. En eCommerce Contacts, selecciona **ContactId** como la clave principal.
 9. Los datos de eCommerce Contacts contienen una columna denominada **Email Subscriber** que se asignará a un tipo incorrecto, Identity.Service.Email, debido al nombre. Abre el desplegable de esta columna y selecciona la opción vacía (nada/en blanco). Si no lo hacemos, el comportamiento predeterminado del sistema combinará este campo con el campo Correo electrónico, cosa que no queremos que suceda.
 10. Selecciona **Loyalty Customers** en Tablas y establece **LoyaltyId** como la clave principal.
 11. Selecciona **Guardar columnas de origen** en la esquina superior izquierda.
@@ -95,11 +95,11 @@ En este ejercicio, configuraremos los criterios de búsqueda y filtro para permi
 1. En Customer Insights, selecciona **Clientes** en el menú de navegación izquierdo.
 2. Selecciona **Índice de buscar y filtrar.**
 3. Algunos campos específicos de búsqueda de clientes ya se agregan de forma predeterminada y puedes agregar más seleccionando **+ Agregar** en la barra de herramientas.
-4. Asegúrate de que **CustomerId, FirstName, LastName, FullName, DateOfBirth, Email, PostCode, Headshot, ContactId (eCommerce_Contacts)** y **LoyaltyId** están seleccionados. Anula la selección de cualquier otro campo que esté activado. Selecciona **Aplicar**.
+4. Asegúrate de que **CustomerId, FirstName, LastName, FullName, DateOfBirth, EMail, PostCode, ContactId (eCommerce_Contacts)** y **LoyaltyId** están seleccionados. Anula la selección de cualquier otro campo que esté activado. Selecciona **Aplicar**.
 5. Seleccione **Guardar**.
 
 ### Tarea 2: Buscar un registro de cliente
-1. En Customer Insights, selecciona **Clientes** en el menú de navegación izquierdo. Te debe aparecer un conjunto de tarjetas de cliente, que representa los perfiles unificados. Puedes expandir las tarjetas para obtener más información sobre el cliente u ordenar las tarjetas por varios campos. Para probarlo, selecciona **Expandir tarjetas** y **Ordenar por** en la barra de herramientas.
+1. En Customer Insights, selecciona **Clientes** en el menú de navegación izquierdo. Debería aparecer un conjunto de tarjetas de cliente, que representan los perfiles unificados. Puedes expandir las tarjetas para obtener más información sobre el cliente u ordenar las tarjetas por varios campos. Para probarlo, selecciona **Expandir tarjetas** y **Ordenar por** en la barra de herramientas.
 2. Puedes usar Buscar clientes para buscar atributos de texto relacionados con los perfiles unificados del cliente. (por ejemplo, la búsqueda de "24502" buscará en todos los atributos de texto y devolverá coincidencias y coincidencias parciales).
 
 Usa la barra de búsqueda para responder a las siguientes preguntas:
